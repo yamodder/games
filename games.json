@@ -1,14 +1,14 @@
 {
   "warnSection": {
     "enabled": true,
-    "backgroundColor": "#df4653",
-    "icon": "ti ti-confetti",
-    "title": "Thanks for 7K subscribers!",
-    "subtitle": "I will continue bringing amazing mods for all of you, always for free.",
+    "backgroundColor": "#465EDF",
+    "icon": "ti ti-bell",
+    "title": "Mod Update: LAC",
+    "subtitle": "The Los Angeles Crimes mod has been updated with new features.",
     "link": {
-      "required": false,
-      "url": "http://",
-      "text": "Join"
+      "required": true,
+      "url": "https://yamodder.github.io/games/?game=los-angeles-crimes",
+      "text": "Update Now"
     }
   },
   "categories": [
@@ -69,7 +69,7 @@
           "downloads": [
             {
               "text": "Download",
-              "url": "https://topjogosvip.online/?p=2418",
+              "url": "https://topjogosvip.online/?p=2527",
               "howdown": "https://youtube.com/shorts/J4-rEDr2ISc?si=FjEnpWJIU_nB56_T"
             }
           ],
