@@ -143,6 +143,34 @@ body {
 
 }
 
+.warn_detail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 0 1rem;
+    border: 1px solid #ef4444;
+    background-color: #ef444465;
+    margin-bottom: 1rem;
+
+    i {
+        font-size: 1.15rem;
+        color: white;
+    }
+
+    p {
+        font-size: 0.85rem;
+        color: white;
+        padding: 0.75rem;
+        text-align: center;
+
+        span {
+            font-weight: 700;
+        }
+    }
+}
+
+
 .contwarns {
     display: flex;
     align-items: center;
