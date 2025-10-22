@@ -13,30 +13,30 @@
   },
   "categories": [
     {
-      "name": "Adventure",
-      "icon": "ti ti-air-balloon",
-      "games": [
-        {
-          "recommended": true,
-          "banner": "https://www.speedrun.com/static/theme/grng37w5/background.jpg?v=15f51d0",
-          "image": "https://play-lh.googleusercontent.com/ZU4lJhAQ-ZE_v5RtIk1rgs71fIiv2Vl41CSspI3sugONJ-WSi2iNgwaKjSLYcY5Q1AM",
-          "title": "Super Bear Adventure",
-          "version": "v12.0.5",
-          "categoryname": "Adventure",
-          "lastUpdated": "??-??-2025",
-          "downloads": [],
-          "demoUrl": "https://www.youtube.com/embed/",
-          "howToInstall": {
-            "required": false,
-            "url": ""
-          }
-        }
-      ]
-    },
-    {
       "name": "Action",
       "icon": "ti ti-helicopter",
       "games": [
+        {
+          "recommended": true,
+          "banner": "https://lh3.googleusercontent.com/kF_iljWI7Edc-hkLc5dFU1dztXMVrkUi_4EH60N4jQ33hYPkUkvHk53rii4bPG1TTwGgsevrTY4uC_-HA8XJ2G8t6bIfsV0WITxnSA=h200",
+          "image": "https://play-lh.googleusercontent.com/DTBOpmXf2zJHVxOCjSPMPIJHRdTupGdm30JXca40HugEwurjN_AFIxFxpn5UKzaB9OP3tohDTojBwYEO5vdkOUE=w240-h480-rw",
+          "title": "Spider Fuser",
+          "version": "v1.055",
+          "categoryname": "Action",
+          "lastUpdated": "22-10-2025",
+          "downloads": [
+            {
+              "text": "Download",
+              "url": "https://topjogosvip.online/?p=2809",
+              "howdown": "https://youtube.com/shorts/J4-rEDr2ISc?si=FjEnpWJIU_nB56_T"
+            }
+          ],
+          "demoUrl": "https://www.youtube.com/embed/",
+          "howToInstall": {
+            "required": false,
+            "url": "https://www.youtube.com/shorts/OVONWpAMrIA"
+          }
+        },
         {
           "recommended": false,
           "banner": "https://imag.malavida.com/mvimgbig/download-fs/bowmasters-mod-33661-1.jpg",
