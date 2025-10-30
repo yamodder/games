@@ -1,16 +1,17 @@
 {
   "warnSection": {
     "enabled": true,
-    "backgroundColor": "#465EDF",
-    "icon": "ti ti-bell",
-    "title": "Mod Update: LAC",
-    "subtitle": "The Los Angeles Crimes mod has been updated with new features.",
+    "backgroundColor": "#4688DF",
+    "icon": "ti ti-bug",
+    "title": "Bug Fixes",
+    "subtitle": "If you found any BUG/CRASH in any mod, tell me directly like on Discord, I will reupload it..",
     "link": {
       "required": true,
-      "url": "https://yamodder.github.io/games/?game=los-angeles-crimes",
-      "text": "Update Now"
+      "url": "https://discord.gg/Jn9749hm9J",
+      "text": "Report"
     }
   },
+
   "categories": [
     {
       "name": "Adventure",
@@ -21,11 +22,17 @@
           "banner": "https://www.speedrun.com/static/theme/grng37w5/background.jpg?v=15f51d0",
           "image": "https://play-lh.googleusercontent.com/ZU4lJhAQ-ZE_v5RtIk1rgs71fIiv2Vl41CSspI3sugONJ-WSi2iNgwaKjSLYcY5Q1AM",
           "title": "Super Bear Adventure",
-          "version": "v12.0.5",
+          "version": "v12.1.1",
           "categoryname": "Adventure",
-          "lastUpdated": "??-??-2025",
-          "downloads": [],
-          "demoUrl": "https://www.youtube.com/embed/",
+          "lastUpdated": "27-10-2025",
+          "downloads": [
+            {
+              "text": "Download",
+              "url": "https://topjogosvip.online/?p=2999",
+              "howdown": "https://youtube.com/shorts/J4-rEDr2ISc?si=FjEnpWJIU_nB56_T"
+            }
+          ],
+          "demoUrl": "https://www.youtube.com/embed/wiUAWPZvmZc",
           "howToInstall": {
             "required": false,
             "url": ""
@@ -37,6 +44,27 @@
       "name": "Action",
       "icon": "ti ti-helicopter",
       "games": [
+        {
+          "recommended": true,
+          "banner": "https://lh3.googleusercontent.com/kF_iljWI7Edc-hkLc5dFU1dztXMVrkUi_4EH60N4jQ33hYPkUkvHk53rii4bPG1TTwGgsevrTY4uC_-HA8XJ2G8t6bIfsV0WITxnSA=h200",
+          "image": "https://play-lh.googleusercontent.com/DTBOpmXf2zJHVxOCjSPMPIJHRdTupGdm30JXca40HugEwurjN_AFIxFxpn5UKzaB9OP3tohDTojBwYEO5vdkOUE=w240-h480-rw",
+          "title": "Spider Fuser",
+          "version": "v1.055",
+          "categoryname": "Action",
+          "lastUpdated": "22-10-2025",
+          "downloads": [
+            {
+              "text": "Download",
+              "url": "https://topjogosvip.online/?p=2809",
+              "howdown": "https://youtube.com/shorts/J4-rEDr2ISc?si=FjEnpWJIU_nB56_T"
+            }
+          ],
+          "demoUrl": "https://www.youtube.com/embed/xTcJHzM7H2Q",
+          "howToInstall": {
+            "required": false,
+            "url": "https://www.youtube.com/shorts/OVONWpAMrIA"
+          }
+        },
         {
           "recommended": false,
           "banner": "https://imag.malavida.com/mvimgbig/download-fs/bowmasters-mod-33661-1.jpg",
@@ -90,13 +118,13 @@
           "banner": "https://cdn6.aptoide.com/imgs/4/9/a/49a92f09fc339a10faff8ebdfb44a062_screen.jpg",
           "image": "https://play-lh.googleusercontent.com/5o1epd429Kgla2-R4k98WuOX0uLqb6z-_72b4_ajC9npNVWANHwuT4sIqbAlaDLfIA",
           "title": "FRAG",
-          "version": "v4.14.1",
+          "version": "v4.14.3",
           "categoryname": "Shooter",
-          "lastUpdated": "15-10-2025",
+          "lastUpdated": "28-10-2025",
           "downloads": [
             {
               "text": "Download",
-              "url": "https://topjogosvip.online/?p=2601",
+              "url": "https://topjogosvip.online/?p=3023",
               "howdown": "https://youtube.com/shorts/J4-rEDr2ISc?si=FjEnpWJIU_nB56_T"
             }
           ],
@@ -174,13 +202,13 @@
           "banner": "https://play-lh.googleusercontent.com/SJe0clqMXdsEmUmSS0DmzdEwVEwTNg1yMja8WldI_68tLuH_mnucMBnamDnQXW1BQA=w526-h296-rw",
           "image": "https://play-lh.googleusercontent.com/Nz2oFbztHbj7R_M4dUsVZqJg7VkZC3oAT8lf5UvaBsRCVsdJR139U9f7qzxLc5Ygts8m=w480-h960-rw",
           "title": "Chicken Gun",
-          "version": "v4.8.0",
+          "version": "v4.9.02",
           "categoryname": "Shooter",
-          "lastUpdated": "03-08-2025",
+          "lastUpdated": "24-10-2025",
           "downloads": [
             {
               "text": "Download",
-              "url": "https://topjogosvip.online/?p=2398",
+              "url": "https://topjogosvip.online/?p=2840",
               "howdown": "https://youtube.com/shorts/J4-rEDr2ISc?si=FjEnpWJIU_nB56_T"
             }
           ],
@@ -269,13 +297,13 @@
           "banner": "https://play-lh.googleusercontent.com/6IK2sBXAcrRVriKWyn3coUsfEcRdZxmxelPmYL2QxYM4Z358xrh_IViT3Nc2g-55S54=w526-h296-rw",
           "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM-sAhLi4sRHOljFjaTw-MLzWM2u4_H87TGIdGc_NFISfcTnAaR5wDAnHh&s=10",
           "title": "Stick War Legacy",
-          "version": "v2025.1.140",
+          "version": "v2025.1.161",
           "categoryname": "Strategy",
-          "lastUpdated": "03-10-2025",
+          "lastUpdated": "29-10-2025",
           "downloads": [
             {
               "text": "Download",
-              "url": "https://topjogosvip.online/?p=2378",
+              "url": "https://topjogosvip.online/?p=3057",
               "howdown": "https://youtube.com/shorts/J4-rEDr2ISc?si=FjEnpWJIU_nB56_T"
             }
           ],
