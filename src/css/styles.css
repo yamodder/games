@@ -148,6 +148,7 @@ body {
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+    width: 100%;
     padding: 0 1rem;
     border: 1px solid #ef4444;
     background-color: #ef444465;
@@ -302,6 +303,140 @@ body {
     display: flex;
     gap: 1rem;
 }
+
+.game-banner-container {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+.game-banner {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: transform 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+/* Efeito de overlay suave com múltiplas camadas */
+.game-banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+        45deg,
+        rgba(28, 28, 28, 0.1) 0%,
+        rgba(28, 28, 28, 0.05) 50%,
+        transparent 100%
+    );
+    z-index: 1;
+    pointer-events: none;
+}
+
+/* Gradiente principal - muito mais suave e gradual */
+.game-banner::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 180px; /* Aumentei bastante a altura do gradiente */
+    background: linear-gradient(
+        to top,
+        var(--theme-bg) 0%,
+        rgba(28, 28, 28, 0.98) 5%,
+        rgba(28, 28, 28, 0.92) 15%,
+        rgba(28, 28, 28, 0.80) 30%,
+        rgba(28, 28, 28, 0.60) 50%,
+        rgba(28, 28, 28, 0.40) 70%,
+        rgba(28, 28, 28, 0.20) 85%,
+        rgba(28, 28, 28, 0.10) 95%,
+        transparent 100%
+    );
+    z-index: 2;
+    pointer-events: none;
+    transition: opacity 0.6s ease;
+}
+
+/* Efeito de brilho sutil no topo */
+.game-banner-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0.03) 0%,
+        transparent 100%
+    );
+    z-index: 3;
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+/* Efeito de borda sutil na base */
+.game-banner-container::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0px;
+    background: linear-gradient(
+        to right,
+        transparent 0%,
+        rgba(255, 255, 255, 0.1) 50%,
+        transparent 100%
+    );
+    z-index: 3;
+    pointer-events: none;
+}
+
+/* Hover suave no container */
+.game-banner-container:hover .game-banner {
+    transform: scale(1.02);
+}
+
+.game-banner-container:hover .game-banner::after {
+    opacity: 0.95;
+}
+
+/* Adicionando uma animação sutil de entrada */
+@keyframes gentleFadeIn {
+    0% {
+        opacity: 0;
+        transform: scale(1.05);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.game-banner {
+    animation: gentleFadeIn 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+/* Efeito de loading suave */
+.game-banner.loading {
+    filter: blur(5px);
+    transform: scale(1.01);
+}
+
+.game-banner.loaded {
+    filter: blur(0px);
+    transition: filter 0.8s ease, transform 0.8s ease;
+}
+
 
 .card_game {
     position: relative;
@@ -705,7 +840,7 @@ body.modal-open {
     /* ocupa o resto do espaço */
     overflow-y: auto;
     /* conteúdo rola separado */
-    padding: 1rem;
+    
 }
 
 
@@ -741,6 +876,7 @@ body.modal-open {
 .media_info_middle {
     display: flex;
     position: relative;
+    padding: 0 1rem;
     flex-direction: column;
     width: 100%;
 }
@@ -750,11 +886,14 @@ body.modal-open {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
     width: 100%;
     height: auto;
     text-align: center;
     gap: 1.5rem;
     padding: 1rem 0.9rem;
+    margin-top: -120px; /* Move o conteúdo para cima sobre o banner */
+    z-index: 2;
 }
 
 .gamename {
@@ -1182,6 +1321,14 @@ footer span {
 
 @media (min-width: 700px) {
 
+
+    .game-banner-container {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 0;
+}
 
 
     .game_info {
