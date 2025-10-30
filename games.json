@@ -46,6 +46,23 @@
       "games": [
         {
           "recommended": true,
+          "banner": "https://play-lh.googleusercontent.com/XJIXWvMtYKOfdE8k_353XZwKEHE63JigwjZnsSyhUH6VzOeUHhxouqGHpy7f1nQGyQ=w526-h296-rw",
+          "image": "https://play-lh.googleusercontent.com/XRlCpj22PFJuFK43QcE3u5RxmoNUed7YO_zG-6F1PCqjrBIIURbTBDvTgLVVIk5pNeY=w240-h480-rw",
+          "title": "Grand Theft Auto: San Andreas",
+          "version": "v2.10",
+          "categoryname": "Action",
+          "lastUpdated": "??-??-2025",
+          "downloads": [
+            
+          ],
+          "demoUrl": "https://www.youtube.com/embed/",
+          "howToInstall": {
+            "required": false,
+            "url": "https://www.youtube.com/shorts/OVONWpAMrIA"
+          }
+        },
+        {
+          "recommended": true,
           "banner": "https://lh3.googleusercontent.com/kF_iljWI7Edc-hkLc5dFU1dztXMVrkUi_4EH60N4jQ33hYPkUkvHk53rii4bPG1TTwGgsevrTY4uC_-HA8XJ2G8t6bIfsV0WITxnSA=h200",
           "image": "https://play-lh.googleusercontent.com/DTBOpmXf2zJHVxOCjSPMPIJHRdTupGdm30JXca40HugEwurjN_AFIxFxpn5UKzaB9OP3tohDTojBwYEO5vdkOUE=w240-h480-rw",
           "title": "Spider Fuser",
