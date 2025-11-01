@@ -51,13 +51,17 @@
           "title": "Grand Theft Auto: San Andreas",
           "version": "v2.10",
           "categoryname": "Action",
-          "lastUpdated": "??-11-2025",
+          "lastUpdated": "01-11-2025",
           "downloads": [
-            
+            {
+              "text": "Download",
+              "url": "https://topjogosvip.online/?p=3157",
+              "howdown": "https://youtube.com/shorts/J4-rEDr2ISc?si=FjEnpWJIU_nB56_T"
+            }
           ],
-          "demoUrl": "https://www.youtube.com/embed/",
+          "demoUrl": "https://www.youtube.com/embed/QR6FcAow3WQ",
           "howToInstall": {
-            "required": false,
+            "required": true,
             "url": "https://youtube.com/shorts/-9Dk6us8j2k?si=J6xG4-gokw2Bfdp5"
           }
         },
